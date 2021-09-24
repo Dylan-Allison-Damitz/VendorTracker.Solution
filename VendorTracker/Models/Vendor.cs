@@ -1,7 +1,9 @@
-namespace ProjectName
+using System.Collections.Generic;
+
+namespace VendorTracker.Models
 {
-  public class ClassName
+  public class Vendor 
   {
-    test// properties, constructors, methods, etc. go here
+  // properties, constructors, methods, etc. go here
   }
 }
