@@ -2,6 +2,6 @@ namespace ProjectName
 {
   public class ClassName
   {
-    // properties, constructors, methods, etc. go here
+    test// properties, constructors, methods, etc. go here
   }
 }
