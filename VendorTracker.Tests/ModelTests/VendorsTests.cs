@@ -103,7 +103,6 @@ namespace VendorTracker.Tests
           Vendor newVendor = new Vendor(vendorName);
           newVendor.AddOrder(newOrder);
 
-
           //Act
           List<Order> result = newVendor.Orders;
 
