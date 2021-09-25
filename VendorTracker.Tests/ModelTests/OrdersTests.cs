@@ -26,4 +26,13 @@ using System;
             string result = newOrder.Name;
             Assert.AreEqual(name, result);
         }
+
+        [TestMethod]
+        public void GetOrderDescription_ReturnsOrderDescription_String()
+        {
+            string description = "Italian restaurant";
+            Order newOrder = new Order("test", description, "test", "test");
+            string result = newOrder.Description;
+            Assert.AreEqual(description, result);
+        }
     }
