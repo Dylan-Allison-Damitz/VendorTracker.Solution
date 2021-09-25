@@ -48,6 +48,5 @@ namespace VendorTracker.Controllers
       model.Add("vendor", foundVendor);
       return View("Show", model);
     }
-
   }
 }
