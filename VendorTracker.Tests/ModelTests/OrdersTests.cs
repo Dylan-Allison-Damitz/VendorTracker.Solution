@@ -17,4 +17,13 @@ using System;
           Order newOrder = new Order("test", "test", "test", "test");
           Assert.AreEqual(typeof(Order), newOrder.GetType());
         }
+
+        [TestMethod]
+        public void GetOrderName_ReturnsOrderName_String()
+        {
+            string name = "Pastini";
+            Order newOrder = new Order(name, "test", "test", "test");
+            string result = newOrder.Name;
+            Assert.AreEqual(name, result);
+        }
     }
