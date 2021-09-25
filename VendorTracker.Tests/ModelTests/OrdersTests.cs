@@ -3,16 +3,16 @@ using VendorTracker.Models;
 using System.Collections.Generic;
 using System;
 
-namespace VendorTracker.Tests
-{
-  [TestClass]
-  public class OrdersTests : IDisposable
-  {
+// namespace VendorTracker.Tests
+// {
+//   [TestClass]
+//   public class OrdersTests : IDisposable
+//   {
 
-    public void Dispose()
-    {
-      Vendor.ClearAll();
-    }
+//     public void Dispose()
+//     {
+//       Vendor.ClearAll();
+//     }
 
-  }
-}
+//   }
+// }
