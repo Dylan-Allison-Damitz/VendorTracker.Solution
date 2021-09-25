@@ -5,8 +5,18 @@ using VendorTracker.Models;
 
 namespace VendorTracker.Controllers
 {
-    public class VendorController : Controller
+  public class VendorController : Controller
+  {
+    [HttpGet("/vendors")]
+    public ActionResult Index()
     {
-      // content
+      List<Vendor> allVendors = Vendor.GetAll();
+      return View(allVendors);
     }
+    [HttpGet("/vendors/new")]
+    public ActionResult New()
+    {
+      return View();
+    }
+  }
 }
