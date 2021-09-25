@@ -81,4 +81,21 @@ using System;
           CollectionAssert.AreEqual(newList, result);
         }
 
+        [TestMethod]
+        public void GetAll_ReturnsOrders_OrderList()
+        {
+          //Arrange
+          string description1 = "Sells breadsticks";
+          string description2 = "Italian restaurant";
+          Order newOrder1 = new Order("Vendor for italian restaurant", description1, "test", "test");
+          Order newOrder2 = new Order("Pastini", description2, "test", "test");
+          List<Order> newList = new List<Order> { newOrder1, newOrder2};
+
+          //Act
+          List<Order> result = Order.GetAll();
+
+          //Assert
+          CollectionAssert.AreEqual(newList, result);
+        }
+
     }
