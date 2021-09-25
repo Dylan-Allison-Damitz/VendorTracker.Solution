@@ -4,6 +4,9 @@ namespace VendorTracker.Models
 {
   public class Vendor 
   {
-  // properties, constructors, methods, etc. go here
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
   }
 }

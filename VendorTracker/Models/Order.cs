@@ -4,6 +4,9 @@ namespace VendorTracker.Models
 {
   public class Order 
   {
-  // properties, constructors, methods, etc. go here
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
   }
 }
