@@ -30,6 +30,6 @@ VendorTracker.Controllers
         model.Add("order", order);
         model.Add("vendor", vendor);
         return View(model);
-    }
+      }
   }
 }
