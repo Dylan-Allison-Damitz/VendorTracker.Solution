@@ -1,4 +1,4 @@
-# C# Template 
+# Pierre's Vendor Tracker 
 
 
 #### By Dylan Allison-Damitz
@@ -8,18 +8,23 @@
 * _.Net 5_
 * _REPL_
 * _MySQL_
+* _C#_
+* _MVC_
 
 ## Description :page_with_curl:
-_A template that follows lesson 8(MSTest Configuration Quickj Reference)_
+_A C# application that allows Pierre to keep track of his vendors and their orders from his bakery. This application allows Pierre to add new vendors and new orders, review existing vendors and orders, and edit those orders as he sees fit_ 
 
 ## Setup/Installation Requirements :triangular_ruler:
 
-* _Clone github repo: https://github.com/Dylan-Allison-Damitz/C_sharp_template.git_
-* _Navigate the directory: (cd top name directory)_
+* _Clone github repo: https://github.com/Dylan-Allison-Damitz/VendorTracker.Solution.git_
+* _Navigate to the directory: (VendorTracker.Solution)_
 * _Open in Vs code: code ._
-* _Navigate to the ProjectName.Tests within the terminal: cd ProjectName.Tests_
-* _Run: dotnet restore_
-* _The line above will create your obj directories._
+* _Navigate to the VendorTracker.Tests within the terminal: cd VendorTracker.Tests_
+* _Run: "dotnet restore"_
+* _The line above will create your obj directories_
+* _Navigate back to VendorTracker in the root directory and run: "dotnet build"_
+* _Dotnet build will compile the project_
+* _After running dotnet build, run: "dotnet run" to launch the project in your browser_
 
 ## License :clipboard:
 MIT &copy; 2021 _Dylan Allison-Damitz_
